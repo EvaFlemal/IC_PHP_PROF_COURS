@@ -66,11 +66,8 @@ class ProfCoursTest extends TestCase
             
             
             /**
-            *
             * Question 6 : Insérer les enregistrements suivantes dans la table prof 
-            *
             */
-            
             new Prof("Nom_prof1", "Prenom_prof1", "10/01/1982", "lieu_prof1"),      // idprof = 1
             new Prof("Nom_prof2", "Prenom_prof2", "10/02/1982", "lieu_prof2"),      // idprof = 2
             new Prof("Nom_prof3", "Prenom_prof3", "10/03/1982", "lieu_prof3"),      // idprof = 3
@@ -95,10 +92,12 @@ class ProfCoursTest extends TestCase
             new Cours("Cours9", "3", 5),        // idcours = 9   ** A MODIFIER **
             
             /**
-            *
             * Question 7 : Insérer les enregistrements suivantes dans la table cours
-            *
             */
+            new Cours("IoT", "10", 1),
+            new Cours("IA", "12", 3),
+            new Cours("EDL", "5", 6)
+
 
         ];
         
